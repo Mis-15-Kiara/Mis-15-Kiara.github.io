@@ -359,16 +359,39 @@ a {
 
 .solapa{
   display: flex;
-  justify-content: center;
+  text-align: justify;
   align-items: center;
   background-color: var(--theme-color);
   border-radius: 20px;
+  flex-wrap: nowrap;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+
 }
-.solapa, iframe{
+/* 
+.modal-1{
+  width: 200px;
+  height: 200px;
+  background-image: url(/img/map.png);
+  background-position: 50% 80%;
+  margin-right: 50px;
+} */
+/* .solapa, iframe{
 
   margin: 20px;
+} */
+.solapa p{
+  text-align: justify;
 }
 
+.boton{
+  margin-top: 20px;
+}
+iframe{
+  background-image: url(/img/map.png);
+
+}
 /*cuenta regresiva*/
 #cuenta{
   width: 100%;
@@ -377,7 +400,7 @@ a {
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin-bottom: 600px; 
+  /* margin-bottom: 600px;  */
 
 }
 
