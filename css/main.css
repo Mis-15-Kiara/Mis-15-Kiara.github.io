@@ -74,7 +74,7 @@ textarea::placeholder{
   font-size: 1.8em;
   font-family: sans-serif;
   /* text-align: justify; */
-  color:#6505ff;
+  color:white;
 } 
 /* .contact-form-loader{
   display: flex;
@@ -161,6 +161,14 @@ input[type=text] {
   align-items: center;
   /* margin-right: 100px; */
   box-shadow: 2px 2px;
+}
+
+.cllegar{
+  font-size: 1.5em;
+  align-items: center;
+  /* margin-right: 100px; */
+  box-shadow: 2px 2px;
+
 }
 
 h2 {
